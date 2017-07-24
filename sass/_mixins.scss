@@ -1,7 +1,7 @@
 @mixin tituloSlider{     // Para Titulos
   font: {
     family: 'Anton', sans-serif;
-    size: 40px;
+    size: 100px;
     weight: none;
   }
   color: #fff;
@@ -11,7 +11,7 @@
 
 //Media-queries en especificos!
 $break-small: 320px;
-$break-large: 1644px;
+$break-large: 1366px;
 
 @mixin respond-to($media) {
   @if $media == handhelds {

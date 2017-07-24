@@ -1,5 +1,5 @@
 .my-nav{
-	position: absolute;
+	position: absolute; // el navbar queda por ensima del crousel automaticamente
 	top:30px;
 	width:100%;
 	z-index:999;
@@ -7,8 +7,8 @@
 	border: 0;
 	border-radius: 0;
 }
-.my-carro{
-	position: absolute;
+.my-carro{              
+	position: absolute; // el carousel queda por ensima del body documento padre. 
 	top: 0;
 
 }
@@ -23,6 +23,6 @@
 }
 .carousel-inner{     // clase del div que envuelve , mis imagenes.manejo el ancho y alto. 
   width:100%;
-  max-height: 580px !important;
+  max-height: 600px !important;
 }
 

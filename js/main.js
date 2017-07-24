@@ -6,3 +6,14 @@ $(document).ready(function(){ /*intervalo de tiempo cambio en el slider*/
 
 
 }
+
+
+//botones desplegables navbar
+$(document).ready(function(){ 
+    $('.dropdown-toggle').dropdown();
+
+}
+
+
+
+

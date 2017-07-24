@@ -7,3 +7,16 @@
 	zoom:$superpone_Adelante;
 	background-color:$colorBlanco;
 }
+
+/*Arreglando tipografia slider*/
+
+.carousel-caption h1{
+	font-size:$font-tamanoGrande;
+	margin-top: 100px;
+		h5{
+			font-family: $font_Reboto;
+			font-size: 20px;
+			
+
+		}
+}

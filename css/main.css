@@ -5819,21 +5819,21 @@ button.close {
 
 .carousel-inner {
   width: 100%;
-  max-height: 580px !important; }
+  max-height: 600px !important; }
 
 @media only screen and (max-width: 320px) {
   .carousel-inner {
     width: 100%; } }
-@media only screen and (min-width: 321px) and (max-width: 1643px) {
+@media only screen and (min-width: 321px) and (max-width: 1365px) {
   .carousel-inner {
     width: 100%; } }
-@media only screen and (min-width: 1644px) {
+@media only screen and (min-width: 1366px) {
   .carousel-inner {
     width: 100%; } }
-@media only screen and (min-width: 1644px) {
+@media only screen and (min-width: 1366px) {
   .carousel-inner .carousel-caption {
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 100px;
     font-weight: none;
     color: #fff;
     top: 100px !important; } }
@@ -5854,5 +5854,13 @@ button.close {
   margin-top: 800px;
   zoom: 1;
   background-color: #fff; }
+
+/*Arreglando tipografia slider*/
+.carousel-caption h1 {
+  font-size: 80px;
+  margin-top: 100px; }
+  .carousel-caption h1 h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */
