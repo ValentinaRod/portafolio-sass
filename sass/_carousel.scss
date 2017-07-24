@@ -14,8 +14,14 @@
 }
 
 .photosSlider{
-	width: 1366px;
-	height: 550px;
+	display: inline-block;
+	background-repeat:no-repeat 
 }
 
-	
+.tales {  // Es una clase de la imagen para medir el tamaño de ancho.
+  width: 100%;
+}
+.carousel-inner{     // clase del div que envuelve , mis imagenes.manejo el ancho y alto. 
+  width:100%;
+  max-height: 580px !important;
+}
