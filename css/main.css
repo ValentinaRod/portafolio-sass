@@ -5821,6 +5821,11 @@ button.close {
   width: 100%;
   max-height: 600px !important; }
 
+.dropdown {
+  display: flex;
+  justify-content: center;
+  color: #fff; }
+
 @media only screen and (max-width: 320px) {
   .carousel-inner {
     width: 100%; } }
