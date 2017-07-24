@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,SAAS;EACR,QAAQ,ECKO,QAAQ;EDHvB,OAAO,EAAE,EAAE",
-"sources": ["../sass/_bases.scss","../sass/_variables.scss"],
-"names": [],
-"file": "main.css"
-}
