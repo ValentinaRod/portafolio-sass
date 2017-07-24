@@ -45,13 +45,22 @@ $break-large: 1366px;
     weight: none;
   }
   	color: $colorBlanco;
-	background-color:$colorRosado;
-	border: none;
+	  background-color:$colorRosado;
+	  border: none;
 }
 
 .btn-default{
 	@include btn;
 }
+
+@mixin moverflax{    //Display.
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+}
+
 
 
 

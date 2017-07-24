@@ -5821,10 +5821,14 @@ button.close {
   width: 100%;
   max-height: 600px !important; }
 
-.dropdown {
-  display: flex;
-  justify-content: center;
-  color: #fff; }
+.navbar-default .navbar-nav > li
+> a {
+  color: #fff;
+  clear: none;
+  margin-left: 82px; }
+
+.navbar-brand {
+  color: #fff !important; }
 
 @media only screen and (max-width: 320px) {
   .carousel-inner {

@@ -1,6 +1,13 @@
-.dropdown{
-	display:flex;
-	justify-content: center;
-	color: #fff;
-
+.navbar-default .navbar-nav > li 
+		> a{
+	 color: #fff;
+	 clear:none;
+	 margin-left: 82px;
+	
 }
+
+.navbar-brand{
+	color:#fff !important; 
+}
+
+
