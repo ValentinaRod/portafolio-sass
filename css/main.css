@@ -5888,4 +5888,68 @@ button.close {
   text-align: center;
   color: #9F9F9F; }
 
+.section__imgfija {
+  background-image: url(/img/img_city.jpg);
+  float: left;
+  width: 100%;
+  margin-top: 8em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative; }
+
+.section__imgfija__titulo {
+  margin-top: -22em;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-wigth: bold;
+  text-align: left; }
+
+.section__imgfija___parrafo {
+  margin-top: -50em;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  display: flex;
+  justify-content: center; }
+
+.section__imgfija__img {
+  width: 600px;
+  margin-top: -60em;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-wigth: bold;
+  text-align: left; }
+
+.embed-responsive-item {
+  width: 600px;
+  height: 200px;
+  margin-top: -20em;
+  margin-left: 20em;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  font-wigth: bold;
+  text-align: left; }
+
+.clothers__thumbnail {
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #999;
+  text-align: center;
+  margin-top: 5em; }
+
+.clother__caption_iconos {
+  display: flex;
+  justify-content: space-around; }
+
+.fa-cart-arrow-down:before {
+  position: relative;
+  top: 2em; }
+
 /*# sourceMappingURL=main.css.map */
