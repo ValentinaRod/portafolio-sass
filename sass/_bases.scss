@@ -107,6 +107,7 @@
 	box-shadow: 2px 2px 5px #999;
 	text-align: center;
 	margin-top: 5em;
+	background-color: $plomo;
 }
 
 .clother__caption_iconos{
@@ -118,4 +119,54 @@
 	position: relative;
 	top: 2em;
 
+}
+
+.clother_titulo{
+	margin-top:5em;
+	text-family:$font_letraGrande;
+}
+
+//portafolio--------------
+.portafolio__titulo{
+	padding-top:-10em;
+	text-family:$font_letraGrande;
+
+}
+
+.portafolio{
+	padding-top:-10em;
+	overflow:hidden;
+
+}
+
+.portafolio__parrafo{
+	font-family:$font_letraClara;
+}
+
+.portafolio__primeralista{
+	padding:3em;
+	margin: 2em;
+	overflow:hidden;
+	
+}
+
+.portafolio__img{
+	width:400px;
+	padding-left: 3em;
+	background-color: $colorBlanco;
+}
+
+.portafolio__segundalista{
+	padding:3em;
+	margin: 2em;
+	overflow:hidden;
+	text-align:center;
+}
+
+.portafolio_terceralista{
+	padding:3em;
+	padding-left: 1em;
+	margin: 1em;
+	overflow:hidden;
+	text-align:center;
 }

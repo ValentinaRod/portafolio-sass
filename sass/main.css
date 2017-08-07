@@ -5942,8 +5942,7 @@ button.close {
   overflow: hidden;
   box-shadow: 2px 2px 5px #999;
   text-align: center;
-  margin-top: 5em;
-  background-color: #9F9F9F; }
+  margin-top: 5em; }
 
 .clother__caption_iconos {
   display: flex;
@@ -5969,26 +5968,10 @@ button.close {
   font-family: "Rajdhani", sans-serif; }
 
 .portafolio__primeralista {
-  padding: 3em;
-  margin: 2em;
+  padding: 15px;
   overflow: hidden; }
 
 .portafolio__img {
-  width: 400px;
-  padding-left: 3em;
-  background-color: #fff; }
-
-.portafolio__segundalista {
-  padding: 3em;
-  margin: 2em;
-  overflow: hidden;
-  text-align: center; }
-
-.portafolio_terceralista {
-  padding: 3em;
-  padding-left: 1em;
-  margin: 1em;
-  overflow: hidden;
-  text-align: center; }
+  width: 400px; }
 
 /*# sourceMappingURL=main.css.map */
